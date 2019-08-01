@@ -60,13 +60,13 @@
                             }
                             break;
                     case right_button:
-                            if(left_val + 50 < WINDOW_WIDTH - 20) {
+                            if(left_val + 50 + 20 < WINDOW_WIDTH) {
                                 left_val += 50;
                                 canvas.style.left = left_val + "px";
                             } 
                             break;
                     case bottom_button:
-                            if(top_val + 50 < WINDOW_HEIGHT - 20) {
+                            if(top_val + 50 + 20 < WINDOW_HEIGHT) {
                                 top_val += 50;
                                 canvas.style.top = top_val + "px";
                             }
