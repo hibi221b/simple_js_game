@@ -76,7 +76,7 @@
             });
         }
 
-        function create_enemy(width, height, left, top, move_speed) {
+        function create_canvas(width, height, left, top, move_speed) {
             let canvas = document.createElement("canvas");
             canvas.style.position = "absolute";
             canvas.width = width;
@@ -247,7 +247,7 @@
                 let size = Math.floor(Math.random() * 50) + 20;                    
                 //敵生成
                 let move_speed = 1;
-                create_enemy(size, size, 1500, 350, move_speed);
+                create_canvas(size, size, 1500, 350, move_speed);
             }
         }
         /*****************************************************************************/
