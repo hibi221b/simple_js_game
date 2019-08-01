@@ -138,7 +138,7 @@
                 }
             }
             function right_way() {
-                if(left + width < WINDOW_WIDTH - 40 && right_way_flag == false) {
+                if(left + width + 40 < WINDOW_WIDTH && right_way_flag == false) {
                     left += move_speed;
                     canvas.style.left = left + "px";
                 } else {
